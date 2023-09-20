@@ -13,10 +13,8 @@ with open('config', 'r') as file:
 
 def GET_ITEM_WEBHOOK(itemID):
   if itemID in config['webhooks']: return config['webhooks'][itemID]
-
-  elif 'DYE' in config['webhooks'] and config['webhooks']['DYE'] != 'DYE_WEBHOOK_URL' and itemID.startswith('DYE_'): return config['webhooks']['DYE']
-
-  else: return config['webhooks']['DEFAULT']
+  if 'DYE' in config['webhooks'] and config['webhooks']['DYE'] != 'DYE_WEBHOOK_URL' and itemID.startswith('DYE_'): return config['webhooks']['DYE']
+  return config['webhooks']['DEFAULT']
 
 
 def GET_IGN(uuid):
