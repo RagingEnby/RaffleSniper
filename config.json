@@ -1,0 +1,9 @@
+{
+  "waitBeforeRetry": 10,
+  "auctionApi": "https://api.hypixel.net/skyblock/auctions?page=0",
+  "webhooks": {
+    "LOG_WEBHOOK": "LOG_WEBHOOK_URL",
+    "DEFAULT": "DEFAULT_WEBHOOK_URL",
+    "DYE": "DYE_WEBHOOK_URL"
+  }
+}
