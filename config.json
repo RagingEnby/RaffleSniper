@@ -4,6 +4,7 @@
   "webhooks": {
     "LOG_WEBHOOK": "LOG_WEBHOOK_URL",
     "DEFAULT": "DEFAULT_WEBHOOK_URL",
-    "DYE": "DYE_WEBHOOK_URL"
+    "DYE": "DYE_WEBHOOK_URL",
+    "ITEM_ID": "CUSTOM_WEBHOOK"
   }
 }
